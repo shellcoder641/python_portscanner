@@ -28,3 +28,16 @@ $ git show HEAD
 
 #When we changed the file and then don't want to keep it, we can restore it back:
 $ git checkout HEAD filename
+
+#Now let's create another file
+$ git add newfile
+
+#Suppose this file was commited
+$ git commit -m "It is done."
+
+#Now let's suppose we accidently make a changes in the newfile
+#Now if we add newfile into the staging area
+$ git add newfile
+#Now we don't want to commit changes
+$ git reset HEAD newfile
+# will reset newfile back to HEAD commit and it is unstaged.
