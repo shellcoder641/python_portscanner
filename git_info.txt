@@ -8,3 +8,12 @@ $ git status
 #Add a file for git to track for changes:
 $ git add filename
 
+#Now if we modify the tracked file, we can track the changes:
+$ git diff filename
+#The + sign is what we have added
+
+#Store changed permanently into repository:
+$ git commit -m "Message... "
+
+#Log back all the commits.
+$ git log
