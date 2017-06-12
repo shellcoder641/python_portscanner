@@ -41,3 +41,11 @@ $ git add newfile
 #Now we don't want to commit changes
 $ git reset HEAD newfile
 # will reset newfile back to HEAD commit and it is unstaged.
+
+#We can also use the form
+$ git reset SHA
+#To restore to any commits, SHA=first seven characters
+#For example
+$ git reset abc1234
+#Will reset commit to abc1234xx, any commits after that will be gone,
+# abc1234xx will now be the HEAD
