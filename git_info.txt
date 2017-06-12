@@ -1,0 +1,10 @@
+#Ways to use git:
+#create a directory where you will be working and saving your project.
+$ git init
+
+#Check the status of the directory and all the files:
+$ git status
+
+#Add a file for git to track for changes:
+$ git add filename
+
