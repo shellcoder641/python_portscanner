@@ -25,3 +25,6 @@ $ git log
 #The currently commit is known as the HEAD commit:
 $ git show HEAD
 #Show all the changes.
+
+#When we changed the file and then don't want to keep it, we can restore it back:
+$ git checkout HEAD filename
