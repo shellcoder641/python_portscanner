@@ -17,3 +17,7 @@ $ git commit -m "Message... "
 
 #Log back all the commits.
 $ git log
+
+#When this file is modified after being committed, we need to add it again and do another commit.
+#The line in red means that the file is modified and need to be added and commit again for changes
+#to store permanently.
