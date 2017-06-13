@@ -52,3 +52,5 @@ $ git reset abc1234
 
 #Check for current branch
 $ git branch
+
+#This is some sample text to test for commits made by new_branch
