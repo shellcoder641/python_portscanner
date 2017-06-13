@@ -55,7 +55,7 @@ $ git reset abc1234
 #Check for current branch
 $ git branch
 
-<<<<<<< HEAD //What is this?
+<<<<<<< HEAD //What is this? //Git created this to make us decide which version to keep
 #Create new branch
 $ git branch new_branch
 
@@ -68,3 +68,30 @@ $ git checkout new_branch
 $ git merge new_branch
 #Note that we need to be on the master branch to merge
 >>>>>>> new_branch //Who created this?
+#Now that we have updated this file with all the changes, there's no need for new_branch
+#We can delete it now
+$ git branch -d new_branch
+
+#Let's clone something from github
+$ git clone remote_directory my_directory
+
+#We can cd into the cloned directory and use
+$ git remote -v
+#To see the origin of the remotely cloned project
+
+#Say, the project created updated his project, we need to have the updated version
+$ git fetch
+# will fetch the changes into the directory
+
+#Now if there is a change from fetch, we need to merge from origin/master to our master branch
+$ git merge origin/master
+
+#Let's say we want to create a branch for our contributions
+$ git branch contributions
+
+#Then we add some sample files and text
+#Then we make a commit
+
+#Now we need to share our work
+$ git push origin contributions
+#will push our contributions branch into origin 
