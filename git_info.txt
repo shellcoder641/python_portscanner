@@ -52,3 +52,9 @@ $ git reset abc1234
 
 #Check for current branch
 $ git branch
+
+#Create new branch
+$ git branch new_branch
+
+#Switch to new branch
+$ git checkout new_branch
