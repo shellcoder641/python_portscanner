@@ -49,3 +49,6 @@ $ git reset SHA
 $ git reset abc1234
 #Will reset commit to abc1234xx, any commits after that will be gone,
 # abc1234xx will now be the HEAD
+
+#Check for current branch
+$ git branch
