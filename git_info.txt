@@ -55,7 +55,7 @@ $ git reset abc1234
 #Check for current branch
 $ git branch
 
-<<<<<<< HEAD
+<<<<<<< HEAD //What is this?
 #Create new branch
 $ git branch new_branch
 
@@ -67,4 +67,4 @@ $ git checkout new_branch
 #The above line and this line will be merge into the master branch
 $ git merge new_branch
 #Note that we need to be on the master branch to merge
->>>>>>> new_branch
+>>>>>>> new_branch //Who created this?
