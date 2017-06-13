@@ -35,6 +35,8 @@ $ git add newfile
 #Suppose this file was commited
 $ git commit -m "It is done."
 
+
+
 #Now let's suppose we accidently make a changes in the newfile
 #Now if we add newfile into the staging area
 $ git add newfile
@@ -53,8 +55,16 @@ $ git reset abc1234
 #Check for current branch
 $ git branch
 
+<<<<<<< HEAD
 #Create new branch
 $ git branch new_branch
 
 #Switch to new branch
 $ git checkout new_branch
+=======
+#This is some sample text to test for commits made by new_branch
+
+#The above line and this line will be merge into the master branch
+$ git merge new_branch
+#Note that we need to be on the master branch to merge
+>>>>>>> new_branch
