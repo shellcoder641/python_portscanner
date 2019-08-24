@@ -1,4 +1,4 @@
-#Ways to use git:
+#How to use git:
 #create a directory where you will be working and saving your project.
 $ git init
 
@@ -79,7 +79,7 @@ $ git clone remote_directory my_directory
 $ git remote -v
 #To see the origin of the remotely cloned project
 
-#Say, the project created updated his project, we need to have the updated version
+#Say, the project creator updated his project, we need to have the updated version
 $ git fetch
 # will fetch the changes into the directory
 
