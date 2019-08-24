@@ -1,0 +1,5 @@
+Author: Quan Trinh
+A simple port scanner that open a full 3 ways handshake TCP connection to check if the port is open or not.
+(Might not be a great idea but for educational purpose, this is acceptable).
+It then tries to grab the banner for running services (REMOVED due to timeout reason).
+MISSING: doesn't know whether the port is closed or filtered by the firewall.
